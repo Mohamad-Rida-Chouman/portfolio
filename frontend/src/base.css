@@ -1,11 +1,18 @@
+/* Layout */
 .main-container{
     padding: 1rem 1.5rem;
 }
 
+/* Font Weights */
 .bold{
     font-weight: bold;
 }
 
 .bolder{
     font-weight: bolder;
+}
+
+/* Font Colors */
+.purple-text{
+    color: #5B1088;
 }
