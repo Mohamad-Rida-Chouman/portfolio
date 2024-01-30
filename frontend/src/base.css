@@ -12,6 +12,35 @@
     font-weight: bolder;
 }
 
+/* Font Sizes */
+.font-huge{
+    font-size: 48px;
+}
+
+.font-larger{
+    font-size: 32px;
+}
+
+.font-large{
+    font-size: 28px;
+}
+
+.font-bigger{
+    font-size: 24px;
+}
+
+.font-big{
+    font-size: 18px;
+}
+
+.font-small{
+    font-size: 12px;
+}
+
+.font-smaller{
+    font-size: 10px;
+}
+
 /* Font Colors */
 .purple-text{
     color: #5B1088;
