@@ -1,0 +1,7 @@
+.navbar-container{
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+}
