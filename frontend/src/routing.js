@@ -1,5 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './pages/home/Home';
+import About from './pages/about/About';
+import Skills from './pages/skills/Skills';
+import Projects from './pages/projects/Projects';
+import Experience from './pages/experience/Experience';
 
 const Routing = () => {
     return (
