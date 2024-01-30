@@ -1,7 +1,28 @@
 .navbar-container{
-    height: 10vh;
+    height: 8vh;
     position: sticky;
     top: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    border-radius: 5px;
+    justify-content: space-around;
+    padding: 1rem 0.5rem;
+    margin: 1rem 2rem;
+}
+
+.logo-container,
+.navbar,
+.cta-container{
+    display: flex;
+    flex: 1 0 0;
+}
+
+.navbar{
+    justify-content: center;
+}
+
+.cta-container{
+    justify-content: end;
 }
