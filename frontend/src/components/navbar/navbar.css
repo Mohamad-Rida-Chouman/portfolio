@@ -1,15 +1,12 @@
 .navbar-container{
     height: 8vh;
-    position: sticky;
-    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid grey;
+    border: 1px solid #808080;
     border-radius: 5px;
     justify-content: space-around;
     padding: 1rem 0.5rem;
-    margin: 1rem 2rem;
 }
 
 .logo-container,
