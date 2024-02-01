@@ -1,8 +1,12 @@
 import React from 'react';
 import './home.css';
 import Navbar from '../../components/navbar/Navbar';
+import Button from '../../components/button/Button';
 
 const Home = () => {
+	const handleBookingButton = () => {
+		console.log('Booking Button Clicked!');
+	};
 	return (
 		<div className="main-container home-container">
 			<Navbar />
@@ -24,7 +28,11 @@ const Home = () => {
 						<span className="gold-text bold"> Bioinformatics</span>! Wanna know
 						more?
 					</div>
-					<div className="cta-button">Book a Call</div>
+					<div className="cta-button">
+						<Button className="button" onClick={handleBookingButton}>
+							Book a Call
+						</Button>
+					</div>
 				</div>
 				<div className="hero-image-container">Image</div>
 			</div>
